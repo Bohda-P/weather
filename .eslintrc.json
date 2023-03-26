@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": "@react-native-community",
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": ["*.ts?(x)", "*.d.ts", "*.android.ts?(x)", "*.ios.ts?(x)"]
+      }
+    }
+  },
+  "rules": {
+    "@typescript-eslint/explicit-member-accessibility": "off"
+  }
+}

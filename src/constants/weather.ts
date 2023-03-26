@@ -1,0 +1,1 @@
+export const KELVIN_TEMPERATURE = 273.15;
